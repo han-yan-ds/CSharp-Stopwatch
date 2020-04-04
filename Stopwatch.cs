@@ -31,5 +31,12 @@ namespace Stopwatch
             }
             return Ticker;
         }
+
+        public TimeSpan Reset()
+        {
+            TimeSpan totalSpan = Stop();
+            Ticker = TimeSpan.Zero;
+            return totalSpan;
+        }
     }
 }

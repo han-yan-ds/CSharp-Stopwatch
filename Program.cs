@@ -23,7 +23,7 @@ namespace Stopwatch
                 Console.WriteLine(mySpan);
             }
 
-            Console.WriteLine("Finished!");
+            Console.Write("Finished! Press ENTER to exit... ");
             Console.Read();
         }
     }
